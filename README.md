@@ -1,19 +1,27 @@
-<img
-  alt="Este.js"
-  src="https://cloud.githubusercontent.com/assets/66249/6515278/de638916-c388-11e4-8754-184f5b11e770.jpeg"
-  width="200"
-/>
+# Eventscore
 
-[![Circle CI](https://img.shields.io/circleci/project/este/este/master.svg)](https://circleci.com/gh/este/este)
-[![Join the chat at https://gitter.im/este/este](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/este/este)
-[![Dependency Status](https://david-dm.org/este/este.svg)](https://david-dm.org/este/este)
-[![GitHub license](https://img.shields.io/github/license/este/este.svg)](https://github.com/este/este/blob/master/LICENSE)
+> Klout for events - An App that determines an event's social impact and weight.
 
-> Starter kit for universal full–fledged React apps. One stack for browser, mobile, server.
+> Buying tickets for events just got easier. With a click of a button, users can see upcoming and uprising events around their area while getting a gauge on the public's social interest on those particular events. Eventscore mission is simple: **Help users make informed ticket buying decision by rating and projecting event popularity based on social buzz**.
 
-> You don't have to start with everything. Este is perfect even for plain static pages. You can gracefully add any platform later. Este mission is simple: **Help startups to deliver minimal valuable product asap with the state of the art real-time universal app stack**.
+## Team
 
-> Pokud máte zájem o školení JavaScript, React.js, nebo Este.js, podívejte se na [javascript-skoleni.cz](https://javascript-skoleni.cz/).
+- Aloyius Pawicki
+- Edwin Brower
+- Jason Kuo
+- John Duong
+
+## Table of Contents
+1. [Techniques](#techniques)
+1. [Libaries](#libaries)
+1. [Prerequisites](#prerequisites)
+1. [Development](#development)
+  1. [Start Development](#start-development)
+  1. [Dev Tasks](#dev-tasks)
+  1. [Production Tasks](#production-tasks)
+1. [Customize App](#customize-app)
+1. [Roadmap](#roadmap)
+1. [Contributing](#contributing)
 
 ## Techniques
 
@@ -63,15 +71,9 @@
 
 If you are using different node versions on your machine, use [nvm](https://github.com/creationix/nvm) to manage them.
 
-## Create App
+## Development
 
-```shell
-git clone
-cd este
-yarn (or npm install)
-```
-
-## Start Development
+### Start Development
 
 - run `gulp`
 - point your browser to [localhost:3000](http://localhost:3000)
@@ -79,7 +81,7 @@ yarn (or npm install)
 
 React Native: [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)
 
-## Dev Tasks
+### Dev Tasks
 
 - `gulp` run web app in development mode
 - `gulp ios` run iOS app in development mode
@@ -96,7 +98,7 @@ React Native: [Getting Started](https://facebook.github.io/react-native/docs/get
 - `gulp favicon` create universal favicon
 - `gulp prettier` prettify source code
 
-## Production Tasks
+### Production Tasks
 
 - `gulp build -p` build app for production
 - `npm test` run all checks and tests
@@ -107,23 +109,19 @@ React Native: [Getting Started](https://facebook.github.io/react-native/docs/get
 - `gulp deploy-firebase` deploy to [Firebase](https://firebase.google.com/)
 - `gulp deploy-firebase-database` deploy Firebase database only
 
-## Customize Este App
+## Customize App
 
 - set name in `package.json`
 - set locales, firebaseUrl, sentryUrl, etc. in `src/server/config.js`
 - change `src/common/app/favicons/original/favicon.png`, then `gulp favicon` and `gulp -p`
 - modify your FB app_id e.g. for [iOS](https://developers.facebook.com/docs/ios/getting-started/#configure-xcode-project)
 
-## Links
+## Roadmap
 
-- [wiki](https://github.com/este/este/wiki)
-- [twitter.com/estejs](https://twitter.com/estejs)
+View the project roadmap [here](LINK_TO_DOC)
 
-## Tips
 
-- Recommended editor is [Atom](https://atom.io). Check [settings](https://github.com/este/este/wiki/Recommended-Atom.io-Settings).
-- Install [nuclide.io](https://nuclide.io/), enable "Use the Flow binary included in each project".
+## Contributing
 
-## Credit
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-Made by [Daniel Steigerwald](https://twitter.com/steida) and the community.
