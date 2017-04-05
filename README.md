@@ -1,63 +1,7 @@
-# Project Name
-
-> Pithy project description
-
-## Team
-
-  - Aloyius Pawicki
-  - Edwin Brower
-  - Jason Kuo
-  - John Duong
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Roadmap](#roadmap)
-1. [Contributing](#contributing)
-
-## Usage
-
-> Some usage instructions
-
-## Requirements
-
-- Node 6.4.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g bower
-npm install
-bower install
-```
-
-### Roadmap
-
-View the project roadmap [here](LINK_TO_DOC)
-
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-
-//ESTE STARTER BELOW
 <img
-alt="Este.js"
-src="https://cloud.githubusercontent.com/assets/66249/6515278/de638916-c388-11e4-8754-184f5b11e770.jpeg"
-width="200"
+  alt="Este.js"
+  src="https://cloud.githubusercontent.com/assets/66249/6515278/de638916-c388-11e4-8754-184f5b11e770.jpeg"
+  width="200"
 />
 
 [![Circle CI](https://img.shields.io/circleci/project/este/este/master.svg)](https://circleci.com/gh/este/este)
@@ -74,20 +18,20 @@ width="200"
 ## Techniques
 
 - universal architecture with immutable app state
-- code shared across platforms (browser, server, native mobile)
-- server side rendering or server-less pre-rendering to HTML files
-- universal internationalization
-- universal crash reporting
-- universal data fetching
-- universal forms with universal validation
-- [universal components with universal styles](https://medium.com/@steida/css-in-js-the-argument-refined-471c7eb83955)
+  - code shared across platforms (browser, server, native mobile)
+  - server side rendering or server-less pre-rendering to HTML files
+  - universal internationalization
+  - universal crash reporting
+  - universal data fetching
+  - universal forms with universal validation
+  - [universal components with universal styles](https://medium.com/@steida/css-in-js-the-argument-refined-471c7eb83955)
 - stateless functional UI with dynamic typed styles
 - flowtype FTW
 - vanilla hot reloading makes everything hot reloadable
 - [Firebase](https://firebase.google.com/) integration ([este.firebaseapp.com](https://este.firebaseapp.com))
-- email and facebook login
-- declarative queryFirebase higher order component for Firebase imperative API
-- users presence
+  - email and facebook login
+  - declarative queryFirebase higher order component for Firebase imperative API
+  - users presence
 
 ## Libraries
 
@@ -183,4 +127,3 @@ React Native: [Getting Started](https://facebook.github.io/react-native/docs/get
 ## Credit
 
 Made by [Daniel Steigerwald](https://twitter.com/steida) and the community.
-
