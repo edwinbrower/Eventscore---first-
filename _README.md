@@ -4,10 +4,10 @@
 
 ## Team
 
-  - teamMember
-  - teamMember
-  - teamMember
-  - teamMember
+  - Aloyius Pawicki
+  - Edwin Brower
+  - Jason Kuo
+  - John Duong
 
 ## Table of Contents
 
